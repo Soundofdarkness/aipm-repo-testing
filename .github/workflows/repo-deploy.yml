@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   push:
-    branches: [$default-branch]
+    branches: [main]
 
 permissions:
   contents: read
